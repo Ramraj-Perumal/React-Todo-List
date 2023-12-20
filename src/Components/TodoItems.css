@@ -1,0 +1,33 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.todoitems-container{
+    display: flex;
+}
+
+.todoitems-text{
+    padding-left: 15px;
+    color: orange;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.check{
+    color: orange;
+    font-size: 22px;
+}
+
+.delete{
+    color: orange;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.line-through{
+    text-decoration: line-through solid 3px white;
+}
